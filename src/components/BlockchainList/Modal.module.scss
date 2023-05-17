@@ -1,0 +1,29 @@
+.content {
+    p,
+    li {
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center;
+    }
+    li {
+        font-weight: 400;
+    }
+
+    max-height: 420px;
+    padding-right: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.back {
+    width: 193px;
+    align-self: flex-end;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

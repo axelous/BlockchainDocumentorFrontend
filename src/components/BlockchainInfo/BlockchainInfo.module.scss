@@ -1,0 +1,47 @@
+.blockchainInfo {
+    background: #fef9ff;
+    color: #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1100px;
+    padding: 20px;
+    gap: 14px;
+    h1 {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 75px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 47px;
+    }
+
+    p,
+    li {
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+
+    button {
+        width: 820px;
+    }
+}
+
+.image {
+    width: 430px;
+    height: 428px;
+}

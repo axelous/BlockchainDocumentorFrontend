@@ -1,0 +1,29 @@
+.button {
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.small {
+    height: 44px;
+}
+
+.medium {
+    height: 57px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.primary {
+    background: #a6d3f3;
+}
+
+.orange {
+    background: #fd841f;
+}
